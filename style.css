@@ -78,6 +78,17 @@ h1 {
 
 }
 
+.half-width {
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 80%;
+
+}
+
 .E {
     font-size: 40px;
     font-weight: bold;
@@ -103,13 +114,7 @@ h1 {
     color: orange;
 }
 
-.half-width {
-    width: 40%;
-    margin-left: 4%;
-    margin-right: 4%;
-    padding: 3%;
-    font-size: 120%;
-}
+
 
 .experience-item {
     box-shadow: 5px 7px 40px gray;
@@ -118,7 +123,7 @@ h1 {
     margin-right: 2%;
     padding: 3%;
     border-radius: 10px;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(228, 228, 96), rgb(226, 119, 119));
 }
 
 .experience-item1 {
