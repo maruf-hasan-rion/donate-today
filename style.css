@@ -22,12 +22,45 @@ h1 {
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 20px;
+    padding: 15px 30px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
-    border-top: 5%;
+    margin-top: 5%;
 }
+
+.link-button1 {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 15px 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.middle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+    padding: 5%;
+    background-color: antiquewhite;
+
+}
+
 
 .text {
 
@@ -52,16 +85,16 @@ h1 {
 
 .E {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: bold;
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 0px;
 }
 
 .p {
     text-align: center;
     margin-bottom: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: center;
 
 }
 
@@ -76,31 +109,61 @@ h1 {
 }
 
 .half-width {
-    width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 5%;
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 3%;
+    font-size: 120%;
 }
 
 .experience-item {
     box-shadow: 5px 7px 40px gray;
-    width: 40%;
-
+    width: 30%;
     margin-left: 2%;
     margin-right: 2%;
-    padding-left: 3%;
+    padding: 3%;
     border-radius: 10px;
+    background-image: linear-gradient(orange, tomato);
 }
 
 .experience-item1 {
     box-shadow: 5px 7px 40px gray;
-    width: 40%;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-left: 3%;
+    width: 20%;
+    margin: 2%;
+    padding: 2%;
     border-radius: 10px;
+    text-align: center;
+    font-size: 150%;
+    background-image: linear-gradient(rgb(228, 228, 96), rgb(226, 119, 119));
 }
 
+.experience-item2 {
+    width: 5%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    border: 100px solid antiquewhite;
+    margin-left: 30%;
+}
+
+#id {
+    width: 5%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    border: 100px solid antiquewhite;
+
+}
+
+.icon {
+    top
+}
 
 #full-stack {
     border-left: 7px solid tomato;
@@ -110,17 +173,37 @@ h1 {
     border-left: 7px solid blue;
 }
 
-footer h3 {
+footer h2 {
     text-align: center;
     color: red;
-    font-style: inherit;
 }
 
 footer h5 {
     text-align: center;
     color: white;
+    background-image: black;
 }
 
 .f {
     background-color: black;
+    padding: 2%;
+}
+
+.input {
+    background-image: linear-gradient(orange, tomato);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.input1 {
+    width: 30%;
+    padding: 15px 30px;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
 }
